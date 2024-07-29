@@ -7,4 +7,4 @@ function reporter(context) {
     },
   };
 }
-export default { linter: reporter };
+module.exports = { linter: reporter };

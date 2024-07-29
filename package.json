@@ -1,8 +1,7 @@
 {
   "name": "textlint-rule-no-h1",
   "description": "textlint rule that disallow to use h1(`#`) in the contents",
-  "version": "0.1.0",
-  "type": "module",
+  "version": "0.1.1",
   "main": "index.js",
   "files": [
     "index.js"
@@ -10,5 +9,12 @@
   "peerDependencies": {
     "textlint": ">= 5.5.0"
   },
+  "keywords": ["textlint", "textlint-rule"],
+  "author": "TOMIKAWA Sotaro <tommysouta@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssssota/textlint-rule-no-h1.git"
+  },
+	"homepage": "https://ssssota.github.io/textlint-rule-no-h1",
   "license": "MIT"
 }
